@@ -148,7 +148,7 @@ Base30L         30  369be5e68tfqth         23456789abcdefghjkmnpqrstvwxyz
 ...
 ```
 
-### BaseX.base(n)
+### BaseX.base(x)
 
 In addition to the named constants above, you can also quickly generate any alphanumeric base between 2 and 62. This could be handy becuase Ruby's `to_i` and `to_s` methods only support bases 2 to 36.
 
