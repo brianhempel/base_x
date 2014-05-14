@@ -1,5 +1,8 @@
 # BaseX
 
+[![Gem Version](https://badge.fury.io/rb/base_x.svg)](http://badge.fury.io/rb/base_x)
+[![Build Status](https://travis-ci.org/brianhempel/base_x.svg)](https://travis-ci.org/brianhempel/base_x)
+
 BaseX is a arbitrary base conversion library that, in addition to converting to/from integers, also supports encoding and decoding arbitrary binary data into and out of any base.
 
 Many known bases are included, such as [Bitcoin Base58](https://en.bitcoin.it/wiki/Base58Check_encoding).
