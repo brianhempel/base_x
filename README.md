@@ -130,7 +130,7 @@ BaseX provides some bases you can use right away.
 | `BaseX::Base62ULD`                                                 | `"VqViJkXcSpF"`          | `A-Za-z0-9`<br>All alphanumeric characters: uppercase then lowercase then digits. |
 | `BaseX::URLBase64`                                                 | `"PyOPJF9WDaL"`          | `A-Za-z0-9-_`<br>(`- _` added.)<br>Alphanumerics plus `-` and `_`. Intended as a base 64 that can be used in URLs; part of [RFC 4648](http://tools.ietf.org/html/rfc4648#page-7). I find URL base 64 annoying because double-clicking won't select through the `-`. |
 | `BaseX::Z85`                                                       | `"]MO]Dt%j>*"`           | `0-9a-zA-Z.-:+=^!/*?&<>()[]{}@%$#`<br>(`. - : + = ^ ! / * ? & < > ( ) [ ] { } @ % $ #` added.)<br>The base 85 numerals used for [ZeroMQ Z85](http://rfc.zeromq.org/spec:32), an encoding standard optimized for 4-byte words and for pasting into single-quoted strings. |
-| `BaseX::Base256`                                                   | `"\xFC\x8E<\x91}X6\x8B"` | `"\x00"-"\xFF"`<br>Byte 0 through byte 255; useful for convert binary strings into a number and back. Used internally by BaseX. |
+| `BaseX::Base256`                                                   | `"\xFC\x8E<\x91}X6\x8B"` | `"\x00"-"\xFF"`<br>Byte 0 through byte 255; useful for converting binary strings into a number and back. Used internally by BaseX. |
 
 Note that although the number schemes from various standards are represented here, BaseX is a number converter only: it does not do padding or other standard-specific details. BaseX is not, for example, a Z85 compliant encoder/decoder. You could, however, easily build one with BaseX.
 
