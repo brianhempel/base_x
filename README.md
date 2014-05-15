@@ -108,7 +108,7 @@ BaseX::Base58.encode(bytes)
 The [HumanToken](https://github.com/brianhempel/human_token) gem wraps BaseX to generate such tokens.
 
 ```ruby
-require 'human_token`
+require 'human_token'
 
 HumanToken.generate
 # => "4f5wveesz5kkkpexxynpacjkhxd"
