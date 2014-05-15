@@ -9,6 +9,8 @@ Many known bases are included, such as [Bitcoin Base58](https://en.bitcoin.it/wi
 
 BaseX is useful for generating human-friendly cryptographic tokens and ID's, and could even be usde for encoding, transmitting, and decoding binary data over binary-unsafe mediums.
 
+BaseX was constructed to back the [HumanToken](https://github.com/brianhempel/human_token) token generator.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -101,6 +103,17 @@ BaseX::Base30L.encode(bytes)
 # => "347wbrazxkvj59atq5zh2fdk55e"
 BaseX::Base58.encode(bytes)
 # => "SLrA71VABcvExTht6KLr89"
+```
+
+The [HumanToken](https://github.com/brianhempel/human_token) gem wraps BaseX to generate such tokens.
+
+```ruby
+require 'human_token`
+
+HumanToken.generate
+# => "4f5wveesz5kkkpexxynpacjkhxd"
+HumanToken.base_58
+# => "n6FXaQYCEHnQgFPxHfddZL"
 ```
 
 ## Provided Bases
