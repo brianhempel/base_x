@@ -147,7 +147,7 @@ BaseX provides some bases you can use right away.
 
 Note that although the number schemes from various standards are represented here, BaseX is a number converter only: it does not do padding or other standard-specific details. BaseX is not, for example, a Z85 compliant encoder/decoder. You could, however, easily build one with BaseX.
 
-In Ruby, you can uses `BaseX.bases` and `BaseX.print_bases` to get information similar to the above table.
+In Ruby, you can use `BaseX.bases` and `BaseX.print_bases` to get information similar to the above table.
 
 ```
 > BaseX.print_bases
